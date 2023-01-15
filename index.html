@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="container">
+        <div class="home">
+          <div class="team"><h1>HOME</h1></div>
+          <div class="display" id="display-home">
+            <p class="score" id="score-home"></p>
+          </div>
+
+          <div class="add-score" id="add-score">
+            <div class="button">
+              <button class="add" onclick="bCh1()" id="add1h">
+                <h3>+1</h3>
+              </button>
+            </div>
+            <div class="button">
+              <button class="add" onclick="bCh2()" id="add2h">
+                <h3>+2</h3>
+              </button>
+            </div>
+            <div class="button">
+              <button class="add" onclick="bCh3()" id="add3h">
+                <h3>+3</h3>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="guest">
+          <div class="team"><h1>GUEST</h1></div>
+          <div class="display" id="display-guest">
+            <p class="score" id="score-guest"></p>
+          </div>
+          <div class="add-score" id="add-score">
+            <div class="button">
+              <button class="add" onclick="bCg1()" id="add1g">
+                <h3>+1</h3>
+              </button>
+            </div>
+            <div class="button">
+              <button class="add" onclick="bCg2()" id="add2g">
+                <h3>+2</h3>
+              </button>
+            </div>
+            <div class="button">
+              <button class="add" onclick="bCg3()" id="add3g">
+                <h3>+3</h3>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="reset" id="res" onclick="reset()">NEW GAME</button>
+    </div>
+
+    <script src="C:\Users\micha\OneDrive\Desktop\Basketball Scoreboard\index.js"></script>
+  </body>
+</html>
